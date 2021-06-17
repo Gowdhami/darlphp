@@ -1,0 +1,72 @@
+/*
+
+vdab_Opleidingcentrum
+
+*/
+
+div {
+    background-color: rgb(228, 221, 212);
+	margin: 2px;;
+	padding: 3px;
+}
+
+body {
+	background: #FFF;
+	color: #000;
+	font: small Arial, sans-serif;
+	width:100%;
+}
+
+header {
+	border-width: 1px 0;
+	margin: 10px 0 30px 0 ;
+	position: relative;
+	padding:0;
+	height:101px;
+}
+#logo {
+	float:left;	
+	padding:0;
+}
+header ul {
+	margin: 0.9em;
+	padding: 0;
+	list-style: none;
+}
+header li {
+	display: inline;
+	margin: 0 1em;
+}
+header a {
+	text-decoration: none;
+}
+header nav {
+	float:right;
+}
+header form {
+	float:right;
+	clear:right;
+	margin-top:2em;
+	font-size: 0.9em;
+}
+
+header hgroup{
+    /*background-color: cadetblue;*/
+	margin-left:1em;
+	color:navy;
+	font-style:italic;
+	}
+header h1{font-size:1.5em;margin:0.4em 0; line-height:1.5em;}
+header h2{font-size:1.3em;margin:0.4em 0; line-height:1.2em;}
+header h3{font-size:1.1em;margin:0.2em 0; line-height:1.2em;}
+
+footer {
+	clear: both;
+	padding: 0;
+	border-top: 1px solid silver;
+	text-align: center;
+    font-size: smaller;
+}
+
+
+

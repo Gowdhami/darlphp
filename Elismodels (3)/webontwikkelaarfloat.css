@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/* CSS Document voor Floats project*/
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 0px;
+    padding: 0px;
+}
+
+.grid-item {
+    padding: 0px;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.item2 {
+    background: #F7F7F7;
+    font-size: 15px;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.item3 {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+}
+
+.item4 {
+    grid-column: 2 / span 1;
+    grid-row: 3;
+}
+
+.item5 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 120px;
+}
+
+img {
+    margin-right: 1em;
+    float: left;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.links {
+    background: #55C5E8;
+}
+
+.rechts {
+    background: #FD6943;
+    padding: 1em 2em;
+}
+
+.sectie {
+    background: #F7F7F7;
+    padding: 2em;
+    margin: 0em;
+}
+
+.thumb {
+    background: #A5CB4E;
+    width: 90px;
+    height: 120px;
+    border: 10px solid #F7F7F7;
+    text-align: center;
+    padding: 2em;
+    margin: 0em;
+}
+
+.header {
+    background: #D93E89;
+    padding: 1em;
+}
+
+.footer {
+    background: #F4E740;
+    padding: 1em 2em;
+    margin: 0em;
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: white;
+    margin: 0.25em 0;
+}
+
+
+/*
+
+vdab_Opleidingcentrum
+
+*/
+
+#login {
+    background-color: #8FB209;
+    text-align: right;
+    padding: 2em;
+}
+
+.wrapper {
+    /*width: 80%;*/
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+body {
+    background: #FFF;
+    color: #000;
+    font: small Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    background-color: #FCFAF8;
+    border-width: 0px 0;
+    margin: 10px 0 30px 0;
+    position: relative;
+    padding: 0;
+    height: 101px;
+}
+
+#logo {
+    float: left;
+    padding: 0;
+}
+
+#webdeveloper img {
+    float: right;
+}
+
+header ul {
+    margin: 0.9em;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin: 0 1em;
+    color: #665950;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+}
+
+header form {
+    float: right;
+    clear: right;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+header hgroup {
+    /*background-color: cadetblue;*/
+    margin-left: 1em;
+    color: navy;
+    font-style: italic;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin: 0.4em 0;
+    line-height: 1.5em;
+}
+
+header h2 {
+    font-size: 1.3em;
+    margin: 0.4em 0;
+    line-height: 1.2em;
+}
+
+header h3 {
+    font-size: 1.1em;
+    margin: 0.2em 0;
+    line-height: 1.2em;
+}
+
+footer {
+    background-color: #FCFAF8;
+    clear: both;
+    padding: 0;
+    border-top: 1px solid silver;
+    text-align: justify;
+    font-size: smaller;
+}

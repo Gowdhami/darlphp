@@ -1,0 +1,147 @@
+body {
+    color: #000;
+    font-family: small Arial, sans-serif;
+    width: 100%;
+    background-color: rgb(234, 240, 239);
+    border-right: 2em solid silver;
+    overflow-x: hidden;
+}
+
+header {
+    padding-left: 2em;
+}
+
+.thumbnail1 {
+    width: 50%;
+}
+
+.adres {
+    background-color: rgb(234, 240, 239);
+    margin-bottom: 1em;
+}
+
+.form-inline {
+    float: right;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    /* only if you want fixed height */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 4.2vw);
+    grid-gap: 0.5rem;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 2;  */
+    /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    /** Alternative Syntax **/
+    /* grid-column: 3 / span 2;  */
+    /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    /** Alternative Syntax **/
+    /* grid-column: 5 / span 4;
+    grid-row: 1 / span 5; */
+}
+
+.gallery__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4;  */
+    /* grid-row: 3 / span 3; */
+}
+
+
+/*.navbar {
+    /* margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0;
+    margin: 1em;
+}*/
+
+.new {
+    width: 100%;
+    padding: 0;
+    margin: 0.5em;
+}
+
+
+/*.thumbnail {
+    width: 100%;
+}
+*/
+
+footer {
+    text-align: justify;
+    font-size: smaller;
+    border-top: 0.1em solid rgb(170, 168, 168);
+    display: block;
+}
+
+.form-group {
+    margin: 2em;
+}
+
+.container {
+    background-color: rgb(182, 212, 154);
+}
+
+.container-sm {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bs-example {
+    background-color: white;
+    margin-top: 2em;
+    width: 100%;
+}
+
+
+/*
+.bs-example form {
+    padding-left: 5em;
+}*/
+
+.jumbotron {
+    margin-right: 50%;
+    width: 60%;
+}

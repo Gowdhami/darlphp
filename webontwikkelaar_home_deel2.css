@@ -1,0 +1,182 @@
+/*
+
+web-ontwikkelaar
+
+*/
+
+.column {
+    float: left;
+    width: 33.33%;
+    gap: 5em;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#login {
+    background-color: #8FB209;
+    text-align: right;
+    padding-right: 6.25em;
+    margin: 0.125em;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    font: small Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    border-bottom: 0.1em solid silver;
+    background-color: #FCFAF8;
+    overflow: auto;
+}
+
+header nav {
+    float: right;
+    overflow: auto;
+}
+
+header a {
+    text-decoration: gray;
+}
+
+header ul {
+    margin: 0.9em;
+    padding: 0;
+    color: gray;
+}
+
+header li {
+    display: inline;
+    margin: 0 1em;
+    border-right: 0.1em solid rgb(236, 240, 232);
+}
+
+li a {
+    display: inline;
+    color: rgb(109, 106, 106);
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    color: rgb(133, 202, 231);
+}
+
+#title {
+    position: relative;
+    background-color: #FCFAF8;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#title img {
+    position: relative;
+    transform: rotate(10deg);
+    transform-style: flat;
+    float: right;
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    height: 150px;
+    top: 40px;
+    box-shadow: rgba(138, 134, 134, 0.4) 5px 5px;
+    z-index: 1;
+}
+
+#title p {
+    font-style: oblique;
+    font-size: 1em;
+}
+
+#title h1 {
+    color: #7ea107;
+    font-size: 2.8em;
+    margin: 0.4em 0;
+    line-height: 1.5em;
+}
+
+#title h2 h3 {
+    font-style: oblique;
+    font-size: 1.3em;
+}
+
+#vdabopleiding {
+    position: relative;
+    background-color: #EBE8E5;
+    padding-top: 2em;
+}
+
+#vdabopleiding h2 {
+    color: #7ea107;
+    text-align: left;
+    padding-left: 12.5em;
+    padding-top: 1.25em;
+}
+
+#vdabopleiding p {
+    padding-left: 12.5em;
+}
+
+em {
+    color: blueviolet;
+}
+
+#vdabopleiding img {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    height: 70px;
+    z-index: 1;
+    transform: skew(-5deg);
+    box-shadow: rgba(138, 134, 134, 0.4) 5px 5px;
+}
+
+ul.a {
+    list-style-image: url('check.png');
+}
+
+#nieuws {
+    background-color: #FCFAF8;
+    padding-top: 2em;
+}
+
+#nieuws h2 {
+    color: #7ea107;
+}
+
+article img {
+    float: right;
+    height: 80px;
+    padding-right: 9.375em;
+}
+
+footer {
+    background-color: #FCFAF8;
+    text-align: justify;
+    font-size: smaller;
+    border-top: 0.1em solid silver;
+}
+
+.new {
+    padding-left: 10%;
+    padding-right: 10%;
+}

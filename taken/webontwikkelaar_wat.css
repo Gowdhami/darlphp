@@ -1,0 +1,144 @@
+/*web-ontwikkelaar-wat*/
+
+#login {
+    background-color: #8FB209;
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 6.25em;
+    margin: 0.125em;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    font-family: small Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    border-bottom: 0.1em solid silver;
+    background-color: #FCFAF8;
+    overflow: auto;
+}
+
+header nav {
+    float: right;
+    overflow: auto;
+}
+
+header a {
+    text-decoration: gray;
+}
+
+header ul {
+    margin: 0.9em;
+    padding: 0;
+    color: gray;
+}
+
+header li {
+    display: inline;
+    margin: 0 1em;
+}
+
+li a {
+    display: inline;
+    color: rgb(109, 106, 106);
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    color: rgb(0, 174, 255);
+}
+
+#title {
+    background-color: #EBE8E5;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    border-bottom: 0.1em solid rgb(231, 227, 227);
+}
+
+#title img {
+    transform: rotate(20deg);
+    float: right;
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    height: 150px;
+    top: 70px;
+    position: relative;
+    box-shadow: rgba(170, 168, 168, 0.4) 5px 5px;
+}
+
+#title h1 {
+    color: #7ea107;
+    font-size: 2.8em;
+    margin: 0.4em 0;
+    line-height: 1.5em;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#ontwikkelaar {
+    background-color: #FCFAF8;
+    padding-top: 2em;
+    border: 1em;
+}
+
+#ontwikkelaar h2 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #7ea107;
+}
+
+p {
+    font-size: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ontwikkelaar img {
+    position: relative;
+    transform: rotate(-10deg);
+    height: 170px;
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    box-shadow: rgba(136, 128, 128, 0.4) 4px 4px;
+}
+
+footer {
+    background-color: #FCFAF8;
+    text-align: justify;
+    font-size: smaller;
+    border-top: 0.1em solid silver;
+}
+
+.new {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#split {
+    border-top: 0.01em dotted;
+}

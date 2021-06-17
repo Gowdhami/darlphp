@@ -1,0 +1,105 @@
+#login {
+    background-color: #8FB209;
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 6.25em;
+    margin: 2px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    font-family: small Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    border-bottom: 0.1em solid silver;
+    background-color: #FCFAF8;
+    overflow: auto;
+}
+
+header nav {
+    float: right;
+    overflow: auto;
+}
+
+header a {
+    text-decoration: gray;
+}
+
+header ul {
+    margin: 0.9em;
+    padding: 0;
+    color: gray;
+}
+
+header li {
+    display: inline;
+    margin: 0 1em;
+}
+
+li a {
+    display: inline;
+    color: rgb(109, 106, 106);
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    color: rgb(0, 174, 255);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#ontwikkelaar {
+    background-color: rgb(241, 234, 234);
+    padding: 2em;
+    font-style: oblique;
+}
+
+#ontwikkelaar h1 {
+    color: indigo;
+}
+
+#ontwikkelaar img {
+    width: 50%;
+    position: relative;
+    transform: skew(-15deg);
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    box-shadow: rgba(136, 128, 128, 0.4) 4px 4px;
+}
+
+footer {
+    background-color: #FCFAF8;
+    text-align: justify;
+    font-size: smaller;
+    border-top: 0.1em solid silver;
+}
+
+.new {
+    padding-left: 10%;
+    padding-right: 10%;
+}

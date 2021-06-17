@@ -1,0 +1,163 @@
+/* web-ontwikkelaar-wie*/
+
+#login {
+    background-color: #8FB209;
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 6.25em;
+    margin: 0.125em;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    color: #000;
+    font-family: small Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    border-bottom: 0.1em solid silver;
+    background-color: #FCFAF8;
+    overflow: auto;
+}
+
+header nav {
+    float: right;
+    overflow: auto;
+}
+
+header a {
+    text-decoration: gray;
+}
+
+header ul {
+    margin: 0.9em;
+    padding: 0;
+    color: gray;
+}
+
+header li {
+    display: inline;
+    margin: 0 1em;
+}
+
+li a {
+    display: inline;
+    color: rgb(109, 106, 106);
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Change the link color on hover */
+
+li a:hover {
+    color: rgb(0, 174, 255);
+}
+
+#title {
+    background-color: #EBE8E5;
+    position: relative;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    border-bottom: 0.1em solid rgb(231, 227, 227);
+}
+
+#title img {
+    transform: rotate(15deg);
+    float: right;
+    background-color: #E9DCE9;
+    padding: 0.4em;
+    height: 150px;
+    top: 50px;
+    position: relative;
+    box-shadow: rgba(170, 168, 168, 0.4) 5px 5px;
+}
+
+#title h1 {
+    color: #7ea107;
+    font-size: 2.8em;
+    margin: 0.4em 0;
+    line-height: 1.5em;
+}
+
+#title h2 {
+    font-style: oblique;
+    font-size: 1.3em;
+    margin: 0.4em 0;
+    line-height: 1.2em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.image-container img {
+    width: 120px;
+    box-shadow: rgba(170, 168, 168, 0.4) 5px 5px;
+    padding: 0.1em;
+    background-color: #E9DCE9;
+}
+
+#wie {
+    background-color: #FCFAF8;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#wie h3 {
+    font-size: 0.6em;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+.image-container:nth-child(odd) img {
+    transform: rotate(-10deg);
+}
+
+.image-container:nth-child(even) img {
+    transform: rotate(10deg);
+}
+
+.image-container:nth-child(odd) h3 {
+    text-align: right;
+    padding-right: 6em;
+}
+
+.image-container:nth-child(odd) p {
+    text-align: right;
+    padding-right: 5em;
+    padding-bottom: 1em;
+}
+
+.image-container:nth-child(even) h3,
+p {
+    text-align: left;
+    padding-right: 3em;
+}
+
+#wie h2 {
+    color: blueviolet;
+}
+
+footer {
+    background-color: #FCFAF8;
+    text-align: justify;
+    font-size: smaller;
+    border-top: 0.1em solid silver;
+    display: block;
+}
+
+.new {
+    padding-left: 10%;
+    padding-right: 10%;
+}
